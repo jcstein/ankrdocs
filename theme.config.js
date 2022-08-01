@@ -1,4 +1,5 @@
 // import { useTheme } from "next-themes";
+import Script from "next/script";
 
 const github = "https://github.com/jcstein/ankrdocs";
 
