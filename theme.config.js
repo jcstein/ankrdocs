@@ -37,11 +37,19 @@ export default {
         <meta name="og:description" content={description} />
         <meta name="og:title" content={title_} />
         {/* <meta name="og:image" content="https://.png" /> */}
-        <meta name="twitter:card" content="summary" />
 
         <meta name="apple-mobile-web-app-title" content="Ankr Docs" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
+        <meta name="twitter:site:domain" content="docs.multichain.wiki" />
+        <meta name="twitter:url" content="https://docs.multichain.wiki" />
+        <meta name="og:title" content={description} />
+        <meta name="og:image" content="https://nextra.vercel.app/og.png" />
         <Script
           defer
           data-domain="docs.multichain.wiki"
