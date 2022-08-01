@@ -94,9 +94,133 @@ export default {
   prevLinks: true,
   nextLinks: true,
   footer: true,
-  footerEditOnGitHubLink: true,
-  footerEditLink: "Edit this page on GitHub",
-  footerText: <>MIT {new Date().getFullYear()} © Ankr.com</>,
+  footerEditLink: "Edit this page on GitHub →",
+  footerText: (
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="flex flex-col">
+        MIT {new Date().getFullYear()} © Ankr.com
+      </div>
+      <div className="flex flex-col">
+        <div className="inline-flex items-center text-current font-bold pb-3">
+          Products
+        </div>
+        <a
+          href="https://www.ankr.com/build/nodes/"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center no-underline text-current font-semibold"
+        >
+          Node Service
+        </a>
+        <a
+          href="https://www.ankr.com/staking/"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center no-underline text-current font-semibold"
+        >
+          Ankr Staking
+        </a>
+        <a
+          href="https://www.ankr.com/ankr-protocol/"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center no-underline text-current font-semibold"
+        >
+          Ankr Protocol
+        </a>
+      </div>
+      <div className="flex flex-col">
+        <div className="inline-flex items-center text-current font-bold pb-3">
+          About us
+        </div>
+        <a
+          href="https://www.ankr.com/docs/learn/reference/ankr-vision"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center no-underline text-current font-semibold"
+        >
+          Our Vision
+        </a>
+        <a
+          href="https://www.ankr.com/about/our-purpose/"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center no-underline text-current font-semibold"
+        >
+          Our Story
+        </a>
+        <a
+          href="https://www.ankr.com/about/careers/"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center no-underline text-current font-semibold"
+        >
+          Careers
+        </a>
+        <a
+          href="https://www.ankr.com/about/team/"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center no-underline text-current font-semibold"
+        >
+          Team
+        </a>
+        <a
+          href="https://medium.com/ankr-network"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center no-underline text-current font-semibold"
+        >
+          Community
+        </a>
+      </div>
+      <div className="flex flex-col">
+        <div className="inline-flex items-center text-current font-bold pb-3">
+          Socials
+        </div>
+        <a
+          href="https://twitter.com/ankr"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center no-underline text-current font-semibold"
+        >
+          Twitter
+        </a>
+        <a
+          href="https://t.me/ankrnetwork"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center no-underline text-current font-semibold"
+        >
+          Telegram
+        </a>
+        <a
+          href="https://discord.gg/ankr/"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center no-underline text-current font-semibold"
+        >
+          Discord
+        </a>
+        <a
+          href="https://medium.com/ankr-network"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center no-underline text-current font-semibold"
+        >
+          Medium
+        </a>
+        <a
+          href="https://www.reddit.com/r/Ankrofficial/"
+          target="_blank"
+          rel="noopener"
+          className="inline-flex items-center no-underline text-current font-semibold"
+        >
+          Reddit
+        </a>
+      </div>
+    </div>
+  ),
   unstable_faviconGlyph: "⚓️",
   unstable_flexsearch: true,
 };
