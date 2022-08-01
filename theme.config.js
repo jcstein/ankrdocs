@@ -77,6 +77,8 @@ export default {
           sizes="16x16"
           href="/favicon-16x16.png"
         />
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
         <Script
           defer
           data-domain="docs.multichain.wiki"
@@ -85,15 +87,16 @@ export default {
       </>
     );
   },
-  search: true,
-  prevLinks: true,
-  nextLinks: true,
   nextThemes: {
     defaultTheme: "dark",
   },
+  search: true,
+  prevLinks: true,
+  nextLinks: true,
   footer: true,
+  footerEditOnGitHubLink: true,
   footerEditLink: "Edit this page on GitHub",
   footerText: <>MIT {new Date().getFullYear()} © Ankr.com</>,
-  // unstable_faviconGlyph: "🧱",
+  unstable_faviconGlyph: "⚓️",
   unstable_flexsearch: true,
 };
