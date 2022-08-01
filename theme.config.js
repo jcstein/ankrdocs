@@ -40,6 +40,11 @@ export default {
         <meta name="apple-mobile-web-app-title" content="Ankr Docs" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
+        <script
+          defer
+          data-domain="docs.multichain.wiki"
+          src="https://plausible.io/js/plausible.js"
+        ></script>
       </>
     );
   },
