@@ -4,7 +4,8 @@ import Script from "next/script";
 const github = "https://github.com/jcstein/ankrdocs";
 
 export default {
-  github,
+  github: github,
+  docsRepositoryBase: github,
   projectLink: github,
   titleSuffix: "⚓️ Ankr",
   logo: (
@@ -56,7 +57,7 @@ export default {
     defaultTheme: "dark",
   },
   footer: true,
-  footerEditLink: "",
+  footerEditLink: "Edit this page on GitHub",
   footerText: <>MIT {new Date().getFullYear()} © Ankr.com</>,
   // unstable_faviconGlyph: "🧱",
   unstable_flexsearch: true,
