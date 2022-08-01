@@ -94,7 +94,7 @@ export default {
   footer: true,
   footerEditLink: "Edit this page on GitHub →",
   footerText: (
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 space-between">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
       <div className="flex flex-col">
         MIT {new Date().getFullYear()} © Ankr.com
       </div>
