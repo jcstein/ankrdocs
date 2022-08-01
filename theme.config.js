@@ -36,7 +36,6 @@ export default {
         <meta name="description" content={description} />
         <meta name="og:description" content={description} />
         <meta name="og:title" content={title_} />
-        {/* <meta name="og:image" content="https://.png" /> */}
 
         <meta name="apple-mobile-web-app-title" content="Ankr Docs" />
         <meta name="msapplication-TileColor" content="#ffffff" />
@@ -48,8 +47,36 @@ export default {
         <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
         <meta name="twitter:site:domain" content="docs.multichain.wiki" />
         <meta name="twitter:url" content="https://docs.multichain.wiki" />
-        <meta name="og:title" content={description} />
         <meta name="og:image" content="https://nextra.vercel.app/og.png" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-icon-180x180.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="/android-icon-192x192.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="96x96"
+          href="/favicon-96x96.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
         <Script
           defer
           data-domain="docs.multichain.wiki"
